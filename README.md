@@ -29,4 +29,4 @@ GitHub Pages publica la raíz de la rama `main`. Los recursos y enlaces internos
 
 ## Contacto
 
-[Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/agust%C3%ADn-crudo/) · [CV en PDF](assets/agustin-crudo-cv.pdf) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)

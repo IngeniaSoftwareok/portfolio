@@ -18,27 +18,52 @@
     dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
     dialog.addEventListener('close', () => { dialog.querySelector('img').removeAttribute('src'); opener?.focus(); });
   }
-  document.querySelectorAll('[data-video]').forEach(button => {
-    button.addEventListener('click', () => {
+  document.querySelectorAll('[data-video]').forEach(trigger => {
+    trigger.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
       const player = document.createElement('video');
       player.controls = true;
       player.preload = 'metadata';
       player.playsInline = true;
-      player.poster = button.querySelector('img').src;
-      player.setAttribute('aria-label', button.dataset.label || 'Recorrido visual del proyecto');
+      player.poster = trigger.querySelector('img').src;
+      player.setAttribute('aria-label', trigger.dataset.label || 'Video del proyecto');
       const source = document.createElement('source');
-      source.src = button.dataset.video;
+      source.src = trigger.dataset.video;
       source.type = 'video/mp4';
       const track = document.createElement('track');
-      track.kind = 'captions'; track.src = button.dataset.track;
-      track.srclang = 'es'; track.label = 'Descripción en español'; track.default = false;
+      track.kind = 'captions'; track.src = trigger.dataset.track;
+      track.srclang = 'es'; track.label = 'Español'; track.default = false;
+      let errorShown = false;
+      const showError = () => {
+        if (errorShown) return;
+        errorShown = true;
+        const message = document.createElement('p');
+        message.className = 'video-error';
+        message.setAttribute('role', 'status');
+        message.append('No se pudo cargar el video. ');
+        const link = document.createElement('a');
+        link.href = source.src;
+        link.textContent = 'Abrir el archivo MP4';
+        message.append(link);
+        player.after(message);
+      };
+      source.addEventListener('error', showError, {once:true});
+      player.addEventListener('error', showError, {once:true});
       player.append(source, track);
-      button.replaceWith(player);
+      trigger.replaceWith(player);
       player.focus();
       player.play().catch(() => {});
-    }, {once:true});
+    });
   });
   document.querySelectorAll('.mobile-nav nav a').forEach(link => {
     link.addEventListener('click', () => { link.closest('details').open = false; });
+  });
+  const mobileNav = document.querySelector('.mobile-nav');
+  mobileNav?.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && mobileNav.open) {
+      mobileNav.open = false;
+      mobileNav.querySelector('summary').focus();
+    }
   });
 })();
