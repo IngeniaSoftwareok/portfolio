@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.db
+*.mv.db
+*.log
+node_modules/
