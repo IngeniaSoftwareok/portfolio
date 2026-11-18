@@ -16,3 +16,5 @@ dialog{width:min(1180px,96vw);max-height:94vh;overflow:auto;padding:18px;backgro
 @media(max-width:640px){.portrait{width:180px}.skills div{grid-template-columns:1fr;gap:2px}.hero-code{font-size:13px}}
 
 .case-callout > .text-link:only-child{margin-top:0}
+
+.identity .identity-monogram{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;font-size:14px;font-weight:650;color:var(--accent);letter-spacing:.02em;flex:none}.services-contact{margin-top:35px;padding-top:24px;border-top:1px solid var(--line)}.services-contact h3{font-size:18px;margin-bottom:12px}.services-contact p{font-size:14px}.services-contact a{color:var(--accent)}

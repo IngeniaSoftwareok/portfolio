@@ -1,6 +1,6 @@
 # Portfolio · Agustin Crudo
 
-Mi portfolio como programador independiente y creador de Ingenia Software.
+Mi portfolio como desarrollador full stack: Java/Spring Boot, React/Next.js y JavaFX. Ingenia Software es mi marca de trabajo independiente.
 
 **[Ver el portfolio](https://ingeniasoftwareok.github.io/portfolio/)**
 
@@ -29,4 +29,4 @@ GitHub Pages publica la raíz de la rama `main`. Los recursos y enlaces internos
 
 ## Contacto
 
-[LinkedIn](https://www.linkedin.com/in/agust%C3%ADn-crudo/) · [CV en PDF](assets/agustin-crudo-cv.pdf) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/agust%C3%ADn-crudo/) · [CV en PDF](assets/agustin-crudo-cv.pdf) · [Servicios de Ingenia](https://ingenia-software.com.ar/) · [Contacto personal](mailto:agustincrudo01@gmail.com)
