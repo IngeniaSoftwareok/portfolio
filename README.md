@@ -2,6 +2,8 @@
 
 Portfolio estático con tres casos profesionales, muestras web y contacto para proyectos u oportunidades laborales. Se presenta una misma trayectoria: Agustin como profesional e Ingenia como marca comercial.
 
+**Web publicada:** [https://ingeniasoftwareok.github.io/portfolio/](https://ingeniasoftwareok.github.io/portfolio/)
+
 ## Abrir localmente
 
 Puede abrirse `index.html` directamente. Para revisar también los videos y las pistas VTT mediante HTTP:
@@ -23,7 +25,7 @@ No hay formulario que envíe datos, analítica, cookies de seguimiento, backend 
 
 ## Publicación
 
-La carpeta puede servirse como sitio estático. Sus rutas de recursos son relativas para funcionar en un subdirectorio, incluido un sitio de proyecto de GitHub Pages. La publicación y el dominio no se configuraron durante la preparación local.
+La carpeta puede servirse como sitio estático. Sus rutas de recursos son relativas para funcionar en un subdirectorio, incluido un sitio de proyecto de GitHub Pages. Está publicado en GitHub Pages desde `main` y la raíz del repositorio, sin dominio personalizado.
 
 Si se utiliza GitHub Pages con la rama y raíz del repositorio, publicar únicamente los archivos de esta carpeta y seleccionar esa ubicación en Pages. La web institucional actual de Ingenia se mantiene aparte.
 
@@ -34,4 +36,4 @@ Si se utiliza GitHub Pages con la rama y raíz del repositorio, publicar únicam
 - [Caso Don Rinaldi](https://github.com/IngeniaSoftwareok/caso-don-rinaldi)
 - [Demo de presupuestos en Java](https://github.com/IngeniaSoftwareok/demo-presupuestos-java)
 
-Los enlaces de los nuevos repositorios quedan resueltos al publicarlos con esos nombres. Los recursos necesarios para ver el portfolio ya están incluidos localmente.
+Los repositorios relacionados están publicados con esos nombres. Los recursos necesarios para ver el portfolio ya están incluidos localmente.
