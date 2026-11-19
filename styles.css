@@ -8,6 +8,8 @@ dialog{width:min(1180px,96vw);max-height:94vh;overflow:auto;padding:18px;backgro
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 
 .hero-code{margin-top:19px;font-size:14px}.hero-code a{display:inline-flex;align-items:center;gap:9px;min-height:36px;color:var(--accent);text-decoration:none}.hero-code a:hover{text-decoration:underline}
+.demo-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px}
+.demo-links .text-link{margin-top:0;min-height:36px}
 .portrait{width:230px;max-width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 38%;border-radius:8px;border:1px solid var(--line);margin-top:25px}
 .skills{display:grid;gap:13px;margin:24px 0}.skills div{display:grid;grid-template-columns:90px 1fr;gap:15px}.skills dt{font-weight:650;color:var(--ink)}.skills dd{margin:0}
 .project-preview{display:block;text-decoration:none}.project-preview:hover img{filter:brightness(1.06)}

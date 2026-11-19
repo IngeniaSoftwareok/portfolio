@@ -11,7 +11,7 @@ Reúne tres proyectos de sistemas de gestión y desarrollo web, con capturas, vi
 - [Newblock](https://github.com/IngeniaSoftwareok/caso-gestion-obras): automatización del trabajo comercial y administrativo de una empresa de obras.
 - [Gestión Multimódulo](https://github.com/IngeniaSoftwareok/caso-gestion-multimodulo): producto de gestión en beta cerrada.
 - [Don Rinaldi](https://github.com/IngeniaSoftwareok/caso-don-rinaldi): web y aplicación de turnos para una barbería.
-- [Demo de presupuestos en Java](https://github.com/IngeniaSoftwareok/demo-presupuestos-java): muestra de código con ejemplos y pruebas.
+- **Presupuestos para instalaciones eléctricas.** [Demo web](https://ingeniasoftwareok.github.io/presupuestos-electricos/) · [Código y pruebas](https://github.com/IngeniaSoftwareok/presupuestos-electricos).
 
 ## Desarrollo local
 
